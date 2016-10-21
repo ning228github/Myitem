@@ -1,0 +1,125 @@
+#four {
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 10px;
+}
+#center{
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    #over{
+        width: 100%;
+        max-width: 1160px;
+        position: relative;
+        #img1{
+            width: 100%;
+        }
+        #img2{
+            position: absolute;
+            left: 50%;
+            top: 50%;    
+            width: 5%;
+        }
+        #text{
+            position: absolute;
+            bottom: 0;
+            height:60px;
+            background: black;
+            width: 100%;
+            opacity: 0.5;
+            li{
+                text-align: center;
+                line-height: 60px;
+                font-size: 20px;
+                color: gainsboro;   
+            }    
+        }
+    }
+}
+//利用混合
+//外面的内容
+#center_content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+#center_inner_content{
+    width: 100%;
+    max-width: 1160px;
+    display: flex;
+    justify-content: space-between;
+}
+#img_top{
+    position: absolute;
+    left: 45%;
+    top: 30%;    
+    width: 10%;
+}
+.p{
+    width: 80%;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #909090; 
+}
+#center1{
+    #center_content;
+    #center_top{
+        #center_inner_content;
+        ul{
+            position: relative;
+            width: 100%;
+            .img3{
+                width: 90%;
+            } 
+            .img4{
+                #img_top;
+            } 
+            p{
+              .p;
+            }    
+        }
+    }
+}
+#center2{
+    #center_content;
+    #center_center{
+        #center_inner_content;
+        ul{
+            position: relative;
+            width: 100%;
+            .img5{
+                width: 90%;
+            } 
+            .img6{
+                #img_top;
+            } 
+            p{
+              .p;
+            }    
+        }
+    }
+}
+#center3{
+    #center_content;
+    #center_bottom{
+        #center_inner_content;
+        ul{
+            position: relative;
+            width: 100%;
+            .img7{
+                width: 90%;
+            } 
+            .img8{
+                #img_top;
+            } 
+            p{
+              .p;
+            }    
+        }
+    }
+}
